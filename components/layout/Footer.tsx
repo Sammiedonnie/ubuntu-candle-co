@@ -19,10 +19,10 @@ const columns = [
   {
     title: "Support",
     links: [
-      { label: "FAQ", href: "/contact" },
-      { label: "Shipping & returns", href: "/contact" },
-      { label: "Privacy policy", href: "/contact" },
-      { label: "Terms", href: "/contact" },
+            { label: "FAQ", href: "/contact" },
+      { label: "Shipping & returns", href: "/shipping-returns" },
+      { label: "Privacy policy", href: "/privacy" },
+      { label: "Terms", href: "/terms" },
     ],
   },
 ];

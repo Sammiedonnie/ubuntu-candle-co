@@ -5,7 +5,7 @@ import Image from "next/image";
 import { X, Minus, Plus } from "lucide-react";
 import { useCart } from "@/lib/cart-context";
 
-const FREE_SHIPPING_THRESHOLD = 75;
+const FREE_SHIPPING_THRESHOLD = 50;
 
 export default function CartDrawer() {
   const { items, isOpen, closeCart, updateQty, removeItem, subtotal } = useCart();
